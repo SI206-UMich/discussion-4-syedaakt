@@ -6,7 +6,9 @@ class Rectangle():
     # It sets an instance variable, "height" to the passed argument, height
 
     # YOUR CODE HERE
-
+    def __init__(self,width,height):
+        self.width = width
+        self.height = height
 
 
     # Create the "__str__" method
@@ -15,7 +17,8 @@ class Rectangle():
     #       "A rectangle with width ____ and height ____"
 
     # YOUR CODE HERE
-
+    def __str__(self,):
+        return f"A rectangle with width {self.width} and height {self.height}"
 
 
     # Create the "verify_input" method
